@@ -80,9 +80,11 @@ questions:
     type: module
     module-id: ssp
     icon: checkmark.png
+    placement: action-buttons
 
   - id: ssp2
     title: View FISMA-Style SSP
     type: module
     module-id: ssp2
     icon: checkmark.png
+    placement: action-buttons
