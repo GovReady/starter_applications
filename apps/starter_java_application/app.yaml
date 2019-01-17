@@ -30,6 +30,7 @@ questions:
     type: module
     protocol: govready.com/apps/compliance/2018/fisma/system-categorization
 
+# Technologies
   - id: web_server
     title: Web Server
     type: module
@@ -40,11 +41,28 @@ questions:
     type: module
     protocol: opencontrol
 
+  - id: java_application_server
+    title: Java Application Server
+    type: module
+    protocol: java_application_server
+    
+  - id: unix_server
+    title: Unix Server
+    type: module
+    protocol: unix_server
+
+  - id: database
+    title: Database
+    type: module
+    protocol: database
+
+# Policy documents
   - id: sm_policy_privacy
     title: Privacy Policy
     type: module
     protocol: sm_policy_privacy
 
+# People
   - id: fed_poc_pm
     title: PM
     type: module
@@ -75,6 +93,7 @@ questions:
     protocol: fed_poc_ao
     icon: person-3.png
 
+# Artifacts
   - id: ssp
     title: View Simple SSP
     type: module
